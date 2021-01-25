@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 30px;
+    background: red;
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+}
