@@ -7,6 +7,10 @@ ul{
     overflow: hidden;
     display: flex;
     border-bottom: solid 4px yellowgreen;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    background: #fff;
 }
 li{
    padding: 18px;
@@ -81,6 +85,7 @@ button{
     height: 500px;
     margin: auto;
     background: #fff;
+    margin-top: 80px;
 }
 .about{
     width: 30%;
