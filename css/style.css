@@ -1,11 +1,91 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
-.header{
-    padding: 30px;
-    background: red;
-    color: #fff;
+ul{
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    border-bottom: solid 4px yellowgreen;
+}
+li{
+   padding: 18px;
+}
+li a{
+    text-decoration: none;
     font-family: cursive;
-    text-align: center;
+    padding: 18px;
+    color: teal;
+}
+li:hover{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.footer{
+    background-image: linear-gradient(135deg, #000000 0%, #4a586d 100%);
+    width: 100%;
+    height: 70vh;
+    display:flex;
+}
+.footer .form{
+    width: 30%;
+    border: solid 3px yellowgreen;
+    height: 65vh;
+    margin: 20px;
+}
+label{
+    color: #fff;
+    margin: 10px;
+    font-family: cursive;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+textarea{
+    margin: 10px;
+}
+button{
+    padding: 16px;
+    width: 150px;
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.header{
+    background-image:
+                    linear-gradient(to right, rgba(14, 13, 13, 0.52), rgba(7, 5, 5, 0.73)),
+                    url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.map{
+    margin: 20px;
+}
+.cv{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 260px;
+}
+.profile{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background: #fff;
+}
+.about{
+    width: 30%;
+    height: 500px;
+    background: rgb(92, 78, 78);
+    float: left;
+    margin: 23px;
 }
